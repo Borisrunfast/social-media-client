@@ -31,14 +31,14 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "*.html": [
-      "prettier --write"
-    ],
-    "*.scss": [
-      "prettier --write"
-    ]
+	    "prettier --write",
+	    "eslint --fix"
+	  ],
+	  "*.html": [
+	    "prettier --write"
+	  ],
+	  "*.scss": [
+	    "prettier --write"
+	  ]
   }
 }
